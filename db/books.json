@@ -1,34 +1,50 @@
 [
   {
     "id": 1,
-    "isbn": 12345678,
-    "judul": "cantik itu luka",
-    "sinopsis": "lorem ipsum",
-    "penulis": "eka kurniawan",
-    "genre": "romantis"
+    "isbn": 9789797945251,
+    "judul": "Garis Waktu",
+    "sinopsis": "Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau bertemu dengan satu orang yang mengubah hidupmu untuk selamanya. Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau terluka dan kehilangan pegangan. Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau ingin melompat mundur pada titik-titik kenangan tertentu. Maka, ikhlaskan saja kalau begitu. Karena sesungguhnya, yang lebih menyakitkan dari melepaskan sesuatu adalah berpegangan pada sesuatu yang menyakitimu secara perlahan.",
+    "penulis": "Fiersa Besari",
+    "genre": "Novel"
   },
   {
     "id": 2,
-    "isbn": 12345678,
-    "judul": "cantik itu luka",
-    "sinopsis": "lorem ipsum",
-    "penulis": "eka kurniawan",
-    "genre": "romantis"
+    "isbn": 9789797945497,
+    "judul": "Catatan Juang",
+    "sinopsis": "Suar menutup buku catatan bersampul merah dengan senyum lebar di wajah. la mengembalikan buku itu pada Fatah, bersamaan dengan ide segar yang membanjiri kepalanya. la berpikir untuk mengangkat kisah Juang ke dalam bentuk film. Tak sabar ia mengutarakan ide tersebut dan kembali bekerja sama dengan kedua sahabat baiknya. Kini, yang ia butuhkan adalah judul yang merepresentasikan petualangan Juang ... tapi apa? Saat lamunannya berlarian ke sana kemari, Dude menyusupkan jemarinya di antara jemari Suar, seakan memberi kekuatan baru. Mereka melangkah bergandengan tangan menuju matahari senja. Sebuah gagasan hinggap di kepala gadis itu. la akan memberi judul pada filmnya: Konspirasi Alam Semesta. Petualangan besar telah menanti Kasuarina.",
+    "penulis": "Fiersa Besari",
+    "genre": "Novel"
   },
   {
     "id": 3,
-    "isbn": 12345678,
-    "judul": "cantik itu luka",
-    "sinopsis": "lorem ipsum",
-    "penulis": "eka kurniawan",
-    "genre": "romantis"
+    "isbn": 9789797945350,
+    "judul": "Konspirasi Alam Semesta",
+    "sinopsis": "Konspirasi Alam Semesta. Alam semesta memang penuh dengan misteri. Alam semesta pernah menaruhku ke dalam hidupmu. Ketahuilah, bila ia mengambilku dari hidupmu, maka itu merupakan Maharencana yang indah untukmu kelak. Bukankah kamu yang mengajarkanku tentang itu? Tentang keharusan kita mengikhlas, tentang kewajiban kita bersyukur. Terima kasih karena telah menunjukkan partikel-partikel yang selama ini kuabaikan. Terima kasih karena telah menuntunku melalui kegelapan. Terima kasih karena telah mengambil hatiku tanpa sekalipun menusuknya. Bersamamu, aku belajar tertawa Iagi. Jangan pernah meratapi episode kecil tentang kita. Bukan dengan cara seperti itu aku ingin kamu kenang. Berbahagialah, lanjutkan hidupmu. Tuhan menyayangiku sebagaimana la menyayangimu.",
+    "penulis": "Fiersa Besari",
+    "genre": "Novel"
   },
   {
     "id": 4,
-    "isbn": 12345678,
-    "judul": "cantik itu luka",
-    "sinopsis": "lorem ipsum",
-    "penulis": "eka kurniawan",
-    "genre": "romantis"
+    "isbn": 9789797945695,
+    "judul": "Sebelas,Sebelas",
+    "sinopsis": "Wahai, Api. Kita pernah punya kesempatan, tapi kau dan aku seolah tidak pernah punya keberanian untuk menjadi kita. Kau yang enggan memastikan kita, dan aku yang senang mematikan kita. Saat aku sendiri, kau menghilang. Saat aku mempunyai seseorang, kau datang. Mungkin, sudah saatnya kita akhiri permainan ini .Wahai, Api. Orang bilang, jodoh takkan ke mana. Aku rasa mereka keliru. Jodoh akan ke mana-mana terlebih dahulu sebelum akhirnya menetap. Ketika waktunya telah tiba, ketika segala rasa sudah tidak bisa lagi dilawan, yang bisa kita lakukan hanyalah merangkul tanpa perlu banyak kompromi. Kini, hanya ada bibirmu di atas keningku, dan hanya ada tubuhku di dalam pelukanmu. Tak ada yang lain selain kita. Selamat datang di rumah.Selamat Membaca dan Berbahagialah...",
+    "penulis": "Fiersa Besari",
+    "genre": "Novel"
+  },
+  {
+    "id": 5,
+    "isbn": 9789797945862,
+    "judul": "Arah langkah",
+    "sinopsis": "Sejauh apa pun jalan yang kita tempuh, tujuan akhir selalu rumah. Bulan April, tahun 2013, berawal dengan niat dan tujuan yang berbeda—salah satunya karena hati yang terluka, tiga pengelana memulai sebuah perjalanan menyusuri daerah-daerah di Indonesia. Lewat cara yang seru tapi menantang, mereka tidak hanya menyaksikan langsung keindahan negeri ini, mereka juga harus menghadapi pertarungan dengan kegelisahan yang dibawa masing-masing. Arah Langkah bukan sekadar catatan perjalanan yang melukiskan keindahan alam, budaya, dan manusia lewat teks dan foto. Tetapi juga memberikan cerita lain tentang kondisi negeri yang tidak selalu sebagus seperti di layar televisi. Meskipun begitu, semua daerah memang memiliki cerita yang berbeda-beda, namun di dalam perbedaan itu, cinta dan persahabatan selalu bisa ditemukan.",
+    "penulis": "Fiersa Besari",
+    "genre": "Novel"
+  },
+  {
+    "id": 6,
+    "isbn": 9789797945862,
+    "judul": "Tapak Jejak",
+    "sinopsis": "Bulan April, tahun 2013, berawal dengan niat dan tujuan yang berbeda, tiga pengelana memulai sebuah perjalanan menyusuri daerah-daerah di Indonesia. Meski akhirnya teman seperjalanan satu per satu memilih arah pulang, langkah yang sudah dijejakkan harus diteruskan. Tapak Jejak akan melanjutkan perjalanan Arah Langkah, mengunjungi daerah-daerah di wilayah timur Indonesia, menelusuri keindahan alam, budaya, dan tradisi, menembus dinding kegelisahan akan makna keluarga dan rumah. Namun, satu hal yang tidak akan pernah berubah bahwa sejauh apa pun kaki melangkah, hati kita akan selalu menemukan arah pulang menuju satu tempat yang paling tepat: rumah.",
+    "penulis": "Fiersa Besari",
+    "genre": "Novel"
   }
 ]

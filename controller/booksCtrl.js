@@ -1,37 +1,4 @@
-const books = [
-  {
-    id: 1,
-    isbn: 12345678,
-    judul: "cantik itu luka",
-    sinopsis: "lorem ipsum",
-    penulis: "eka kurniawan",
-    genre: "romantis",
-  },
-  {
-    id: 2,
-    isbn: 12345678,
-    judul: "cantik itu luka",
-    sinopsis: "lorem ipsum",
-    penulis: "eka kurniawan",
-    genre: "romantis",
-  },
-  {
-    id: 3,
-    isbn: 12345678,
-    judul: "cantik itu luka",
-    sinopsis: "lorem ipsum",
-    penulis: "eka kurniawan",
-    genre: "romantis",
-  },
-  {
-    id: 4,
-    isbn: 12345678,
-    judul: "cantik itu luka",
-    sinopsis: "lorem ipsum",
-    penulis: "eka kurniawan",
-    genre: "romantis",
-  },
-];
+const books = require('../db/books.json')
 
 exports.getBooks = (req, res) => {
   return res.status(200).json({
@@ -40,15 +7,31 @@ exports.getBooks = (req, res) => {
   });
 };
 
+exports.getBooksById = (req, res) => {
+  const book = books.find(i => i.id === +req.params.id)
+  return res.status(200).json({
+    success: true,
+    book,
+  });
+};
+
 exports.postBooks = (req, res) => {
-  const judul = req.body.judul;
-  const pengarang = req.body.pengarang;
-  let data = books[books.length - 1].id + 1;
+  const data = books[books.length - 1].id + 1;
+  const {
+    isbn,
+    judul,
+    sinopsis,
+    penulis,
+    genre
+  } = req.body
 
   const params = {
     id: data,
+    isbn,
     judul,
-    pengarang,
+    sinopsis,
+    penulis,
+    genre,
   };
 
   books.push(params);
@@ -60,22 +43,28 @@ exports.postBooks = (req, res) => {
 };
 
 exports.putBooks = (req, res) => {
-  const judul = req.body.judul;
-  const pengarang = req.body.pengarang;
+  const buku = books.find((i) => i.id === +req.params.id);
+  const {
+    isbn,
+    judul,
+    sinopsis,
+    penulis,
+    genre
+  } = req.body
 
   const params = {
+    isbn,
     judul,
-    pengarang,
-  };
+    sinopsis,
+    penulis,
+    genre,
+  }
+  updated = {
+    ...buku,
+    ...params
+  }
 
-  const id = req.params.nim;
-
-  const fetchedBooks = books.find((i) => i.id === id);
-
-  const updated = {
-    ...fetchedBooks,
-    ...params,
-  };
+  updated = books.map(i => i.id === buku.id ? buku : i)
 
   return res.status(200).json({
     success: true,
@@ -84,13 +73,11 @@ exports.putBooks = (req, res) => {
 };
 
 exports.deleteBooks = (req, res) => {
-  const no = +req.params.id;
-
-  const deleted = books.filter((Books) => Books.id === no);
+  const deleted = books.filter((i) => i.id !== +req.params.id);
 
   return res.status(200).json({
     success: true,
-    message: `Deleted ${deleted[0].judul} from data success!`,
+    message: `Buku dengan id ${deleted[0].judul} berhasil di hapus!  `,
     deleted,
   });
 };
